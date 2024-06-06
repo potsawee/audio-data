@@ -1,0 +1,13 @@
+*.yml
+.ipynb_checkpoints/
+
+# google fleurs
+google_fleurs/*.json
+google_fleurs/wav
+
+# vulcan asr
+vulcan_asr/wav
+
+# librispeech
+librispeech_asr/LibriSpeech/
+librispeech_asr/*.json
