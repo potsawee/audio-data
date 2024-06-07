@@ -1,5 +1,6 @@
 *.yml
 .ipynb_checkpoints/
+.DS_Store
 
 # google fleurs
 google_fleurs/*.json
@@ -11,3 +12,9 @@ vulcan_asr/wav
 # librispeech
 librispeech_asr/LibriSpeech/
 librispeech_asr/*.json
+
+# audiocaps
+audiocaps/*.json
+audiocaps/train/
+audiocaps/val/
+audiocaps/test/
