@@ -33,3 +33,8 @@ clotho/wav_original_44.1k
 # th_cv-and-dialect-central-and-yodas
 th_cv-and-dialect-central-and-yodas/wav/
 th_cv-and-dialect-central-and-yodas/*.json
+
+# thai_elderly_visai
+thai_elderly_visai/Dataset
+thai_elderly_visai/wav_16k
+thai_elderly_visai/data.json
