@@ -23,7 +23,11 @@ def array_to_wav(split):
         # wav path
         path = f"/dataset/audio-data/th_cv-and-dialect-central-and-yodas/wav/{split}/{i}.wav"
         sampling_rate = 16000
-        scaled = np.int16(x['audio']['array'] / np.max(np.abs(x['audio']['array'])) * 32767)
+        try:
+            scaled = np.int16(x['audio']['array'] / np.max(np.abs(x['audio']['array'])) * 32767)
+        except ValueError:
+            print("ValueError... skipping:", i)
+            continue
         write(path, sampling_rate, scaled)
 
         json_data.append({
