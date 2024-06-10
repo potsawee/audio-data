@@ -8,6 +8,8 @@ google_fleurs/wav
 
 # vulcan asr
 vulcan_asr/wav
+vulcan_asr/data.csv
+vulcan_asr/data.json
 
 # librispeech
 librispeech_asr/LibriSpeech/
