@@ -38,3 +38,8 @@ th_cv-and-dialect-central-and-yodas/*.json
 thai_elderly_visai/Dataset
 thai_elderly_visai/wav_16k
 thai_elderly_visai/data.json
+
+# gowajee_corpus
+gowajee_corpus/*.json
+gowajee_corpus/*.zip
+gowajee_corpus/v0.9.2
