@@ -18,3 +18,9 @@ audiocaps/*.json
 audiocaps/train/
 audiocaps/val/
 audiocaps/test/
+
+# clotho
+clotho/clotho_*.csv
+clotho/*.json
+clotho/wav_16k
+clotho/wav_original_44.1k
