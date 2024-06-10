@@ -13,6 +13,9 @@ vulcan_asr/wav
 librispeech_asr/LibriSpeech/
 librispeech_asr/*.json
 
+# gigaspeech (M)
+gigaspeech/*.json
+
 # audiocaps
 audiocaps/*.json
 audiocaps/train/
