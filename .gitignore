@@ -29,3 +29,7 @@ clotho/clotho_*.csv
 clotho/*.json
 clotho/wav_16k
 clotho/wav_original_44.1k
+
+# th_cv-and-dialect-central-and-yodas
+th_cv-and-dialect-central-and-yodas/wav/
+th_cv-and-dialect-central-and-yodas/*.json
