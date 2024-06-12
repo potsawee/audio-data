@@ -30,6 +30,14 @@ def array_to_wav(split):
             continue
         write(path, sampling_rate, scaled)
 
+        text = "".join(text.split(" "))
+        text = text.replace("[ดนตรี]", "")
+        text = text.replace("[เสียงปรบมือ]", "")
+        text = text.strip()
+        if "[" in text or "<" in text or text == "": 
+            print("skipping:", text)
+            continue
+
         json_data.append({
             'text': text,
             'path': path,
