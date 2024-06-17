@@ -49,6 +49,9 @@ ltu-openasqa/eval_openasqa/
 ltu-openasqa/openasqa_10.3M_v2.json
 
 # libritts
+libritts/wav
 
 # IEMOCAP
 IEMOCAP/wav
+
+
