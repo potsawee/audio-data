@@ -55,4 +55,9 @@ libritts/wav
 # IEMOCAP
 IEMOCAP/wav
 
-
+# covost2
+covost2/en
+covost2/other_langs
+covost2/sampling_16k_*
+covost2/mp3*
+covost2/text
