@@ -62,3 +62,11 @@ covost2/other_langs
 covost2/sampling_16k_*
 covost2/mp3*
 covost2/text
+
+# audioset
+audioset/downloads
+audioset/flac_16kHz
+audioset/ltu-audioset-ids.txt
+audioset/progress_log
+audioset/run_download_eval.sh
+audioset/run_download_unbal_*
