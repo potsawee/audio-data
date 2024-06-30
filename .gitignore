@@ -54,6 +54,7 @@ libritts/wav
 
 # IEMOCAP
 IEMOCAP/wav
+IEMOCAP/train.json
 
 # covost2
 covost2/en
