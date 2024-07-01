@@ -48,13 +48,15 @@ gowajee_corpus/v0.9.2
 # ltu-openasqa
 ltu-openasqa/eval_openasqa/
 ltu-openasqa/openasqa_10.3M_v2.json
+ltu-openasqa/openasqa_10.3M_v2.thai.json
 
 # libritts
 libritts/wav
+libritts/train*.json
 
 # IEMOCAP
 IEMOCAP/wav
-IEMOCAP/train.json
+IEMOCAP/train.*.json
 
 # covost2
 covost2/en
@@ -63,16 +65,30 @@ covost2/sampling_16k_*
 covost2/mp3*
 covost2/text
 covost2/text_with_thai
+covost2/train*.json
 
 # audioset
 audioset/downloads
 audioset/flac_16kHz
 audioset/ltu-audioset-ids.txt
 audioset/progress_log
-audioset/run_download_eval.sh
-audioset/run_download_unbal_*
+audioset/run_scripts/run_download_eval.sh
+audioset/run_scripts/run_download_unbal_*
+audioset/as_20k_train.*.json
+audioset/as_strong_train.*.json
+audioset/audioset_train.*.json
 
 # FSD50k
 FSD50k/wav_16k
 FSD50k/train.en.json
 FSD50k/train.th.json
+
+# LP-MusicCaps-MTT
+LP-MusicCaps-MTT/audio_data
+LP-MusicCaps-MTT/train_with_thai
+LP-MusicCaps-MTT/train*.json
+
+# AudioCaps/LibriSpeech-Salmonn
+audiocaps/salmonn-aqa/train.json
+librispeech_asr/salmonn-sqa/train.json
+salmonn_data/salmonn_stage*_data.json
