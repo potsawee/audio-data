@@ -62,6 +62,7 @@ covost2/other_langs
 covost2/sampling_16k_*
 covost2/mp3*
 covost2/text
+covost2/text_with_thai
 
 # audioset
 audioset/downloads

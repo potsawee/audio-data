@@ -30,7 +30,7 @@ for split in ['train', 'validation', 'test']:
         # if file_name == "common_voice_de_19411969.mp3":
             # continue
 
-        new_path = f"/dataset/audio-data/covost2/mp3_16kHz/{file_name}"
+        new_path = f"/dataset/audio-data/covost2/mp3_original/{file_name}"
 
         sentence = x['sentence']
         translation = x['translation']
