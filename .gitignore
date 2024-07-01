@@ -71,3 +71,8 @@ audioset/ltu-audioset-ids.txt
 audioset/progress_log
 audioset/run_download_eval.sh
 audioset/run_download_unbal_*
+
+# FSD50k
+FSD50k/wav_16k
+FSD50k/train.en.json
+FSD50k/train.th.json
